@@ -13,9 +13,12 @@
 
 ### About
 
-Six years inside financial systems before software. I prepared and filed quarterly and
-1040 tax returns, ran payroll, reconciled bank statements, and audited more than 40
-branches against internal standards. Then I trained in manual and automated testing.
+Six years inside financial systems before software: tax returns, payroll, bank
+reconciliations, and compliance audits across more than 40 branches.
+
+I build test automation, not just test cases. Frameworks in Java and Selenium on the
+Page Object Model, API verification with Postman and REST Assured, SQL checks against
+the database, and suites that run on every commit through GitHub Actions.
 
 I test financial applications the way an accountant reads a ledger. I know what the
 numbers are supposed to do, and I write the tests that prove whether the software
