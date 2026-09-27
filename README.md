@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=DA627D&height=170&section=header&text=Gamze%20Simit&fontSize=46&fontColor=ffffff&fontAlignY=34&desc=QA%20Engineer%20·%20Accounting,%20Payments%20and%20Banking%20Software&descSize=15&descAlignY=54" width="100%" alt="Gamze Simit"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8FAB&height=170&section=header&text=Gamze%20Simit&fontSize=46&fontColor=ffffff&fontAlignY=34&desc=QA%20Engineer%20·%20Accounting,%20Payments%20and%20Banking%20Software&descSize=15&descAlignY=54" width="100%" alt="Gamze Simit"/>
 
-<img src="https://img.shields.io/badge/Austin,_TX-6D2E46?style=flat-square"/>
-<a href="https://linkedin.com/in/gamzesimit"><img src="https://img.shields.io/badge/LinkedIn-A53860?style=flat-square"/></a>
-<a href="mailto:gamzenursimit@gmail.com"><img src="https://img.shields.io/badge/gamzenursimit@gmail.com-DA627D?style=flat-square"/></a>
-<img src="https://img.shields.io/badge/Open_to_work-FFA5AB?style=flat-square&labelColor=FFA5AB"/>
+<img src="https://img.shields.io/badge/Austin,_TX-FB6F92?style=flat-square"/>
+<a href="https://linkedin.com/in/gamzesimit"><img src="https://img.shields.io/badge/LinkedIn-FF8FAB?style=flat-square"/></a>
+<a href="mailto:gamzenursimit@gmail.com"><img src="https://img.shields.io/badge/gamzenursimit@gmail.com-FF8FAB?style=flat-square"/></a>
+<img src="https://img.shields.io/badge/Open_to_work-FFC2D1?style=flat-square&labelColor=FFC2D1"/>
 
 </div>
 
 <br>
 
-### 💡 About
+### About
 
 Six years inside financial systems before software. I prepared and filed quarterly and
 1040 tax returns, ran payroll, reconciled bank statements, and audited more than 40
@@ -23,45 +23,45 @@ actually does it.
 
 <br>
 
-### 🧪 Testing
+### Testing
 
-<img src="https://img.shields.io/badge/Manual-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Functional-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Regression-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Smoke-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Exploratory-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Black_Box-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Boundary_Value_Analysis-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Equivalence_Partitioning-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Database-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/API-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Data_Driven-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/User_Acceptance-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Risk_Based-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Requirement_Analysis-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Test_Case_Design-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Test_Plans-6D2E46?style=flat-square"/> <img src="https://img.shields.io/badge/Defect_Logging-6D2E46?style=flat-square"/>
+<img src="https://img.shields.io/badge/Manual-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Functional-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Regression-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Smoke-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Exploratory-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Black_Box-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Boundary_Value_Analysis-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Equivalence_Partitioning-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Database-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/API-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Data_Driven-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/User_Acceptance-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Risk_Based-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Requirement_Analysis-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Test_Case_Design-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Test_Plans-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Defect_Logging-FB6F92?style=flat-square"/>
 
-### 🤖 Automation
+### Automation
 
-<img src="https://img.shields.io/badge/Selenium_WebDriver-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/Playwright-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/Cucumber-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/TestNG-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/JUnit-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/Page_Object_Model-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/PageFactory-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/BDD-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/TDD-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/Maven-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/Apache_POI-A53860?style=flat-square"/> <img src="https://img.shields.io/badge/k6-A53860?style=flat-square"/>
+<img src="https://img.shields.io/badge/Selenium_WebDriver-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Playwright-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Cucumber-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/TestNG-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/JUnit-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Page_Object_Model-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/PageFactory-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/BDD-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/TDD-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Maven-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Apache_POI-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/k6-FF8FAB?style=flat-square"/>
 
-### 🔌 API and data
+### API and data
 
-<img src="https://img.shields.io/badge/Postman-DA627D?style=flat-square"/> <img src="https://img.shields.io/badge/REST_Assured-DA627D?style=flat-square"/> <img src="https://img.shields.io/badge/Swagger-DA627D?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-DA627D?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL-DA627D?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL_Workbench-DA627D?style=flat-square"/> <img src="https://img.shields.io/badge/JDBC-DA627D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Postman-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/REST_Assured-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Swagger-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL_Workbench-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/JDBC-FF8FAB?style=flat-square"/>
 
-### ⚙️ Engineering
+### Engineering
 
-<img src="https://img.shields.io/badge/Java-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/TypeScript-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/Gherkin-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/Git-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/GitHub_Actions-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/Jenkins-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/Docker-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/CI/CD-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/Agile_Scrum-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/SDLC-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/STLC-C9184A?style=flat-square"/> <img src="https://img.shields.io/badge/JIRA-C9184A?style=flat-square"/>
+<img src="https://img.shields.io/badge/Java-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/TypeScript-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Gherkin-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Git-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/GitHub_Actions-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Jenkins-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Docker-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/CI/CD-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Agile_Scrum-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/SDLC-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/STLC-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/JIRA-FF9EBB?style=flat-square"/>
 
-### 💰 Financial domain
+### Financial domain
 
-<img src="https://img.shields.io/badge/General_Ledger-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Accounts_Payable-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Accounts_Receivable-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Reconciliations-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Month_End_Close-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Sales_Tax_Filing-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Payroll-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Tax_Returns-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Mortgage_Origination-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Compliance_Auditing-B5838D?style=flat-square"/> <img src="https://img.shields.io/badge/Audit_Trails-B5838D?style=flat-square"/>
+<img src="https://img.shields.io/badge/General_Ledger-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Accounts_Payable-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Accounts_Receivable-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Reconciliations-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Month_End_Close-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Sales_Tax_Filing-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Payroll-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Tax_Returns-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Mortgage_Origination-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Compliance_Auditing-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Audit_Trails-FFA5BD?style=flat-square"/>
 
-<img src="https://img.shields.io/badge/QuickBooks-E5989B?style=flat-square"/> <img src="https://img.shields.io/badge/PeopleSoft-E5989B?style=flat-square"/> <img src="https://img.shields.io/badge/UltraTax-E5989B?style=flat-square"/> <img src="https://img.shields.io/badge/Bloomberg_Terminal-E5989B?style=flat-square"/> <img src="https://img.shields.io/badge/Excel-E5989B?style=flat-square"/>
+<img src="https://img.shields.io/badge/QuickBooks-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/PeopleSoft-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/UltraTax-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/Bloomberg_Terminal-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/Excel-FFB3C6?style=flat-square"/>
 
 <br>
 
-### 🚀 What I am building
+### What I am building
 
-**Accounting Software Defect Study** <img src="https://img.shields.io/badge/in_progress-A53860?style=flat-square"/>
+**Accounting Software Defect Study** <img src="https://img.shields.io/badge/in_progress-FF8FAB?style=flat-square"/>
 Manual test plan and structured defect reports against an open source accounting
 platform. Invoicing, tax calculation, multi currency handling, ledger balancing.
 
-**Payments API Test Suite** <img src="https://img.shields.io/badge/planned-FFA5AB?style=flat-square"/>
+**Payments API Test Suite** <img src="https://img.shields.io/badge/planned-FFC2D1?style=flat-square"/>
 Automated API suite against a payment provider sandbox, plus load and performance
 testing with k6.
 
-**Automated Regression Pipeline** <img src="https://img.shields.io/badge/planned-FFA5AB?style=flat-square"/>
+**Automated Regression Pipeline** <img src="https://img.shields.io/badge/planned-FFC2D1?style=flat-square"/>
 Playwright on the Page Object Model, running on every commit through GitHub Actions
 inside a Docker container.
 
-### 🌱 Open source
+### Open source
 
 **[openMF/web-app](https://github.com/openMF/web-app)**
 Playwright coverage for the accounting module of the Apache Fineract core banking
@@ -69,7 +69,7 @@ front end.
 
 <br>
 
-### 🎓 Background
+### Background
 
 **The University of Tennessee, Knoxville**
 B.S. Business Administration. Major: Accounting, Collateral in Finance. GPA 3.5/4.0.
@@ -83,6 +83,6 @@ Mortgage Loan Originator examination.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=DA627D&height=90&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8FAB&height=90&section=footer" width="100%"/>
 
 </div>
