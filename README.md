@@ -15,11 +15,23 @@
 
 Six years inside financial systems before software. I prepared and filed quarterly and
 1040 tax returns, ran payroll, reconciled bank statements, and audited more than 40
-branches against internal standards. Then I trained in manual and automated testing.
+branches against internal standards.
 
-I test financial applications the way an accountant reads a ledger. I know what the
-numbers are supposed to do, and I write the tests that prove whether the software
-actually does it.
+On the software side I build test automation, not just test cases. I write frameworks in
+Java with Selenium WebDriver on the Page Object Model, drive them with TestNG and
+Cucumber, and structure them so the next person can extend them without rewriting
+anything. I verify REST APIs with Postman and REST Assured down to status codes,
+response schemas and data consistency, then go into the database with SQL to confirm
+what the interface claims. I wire suites to run on every commit through GitHub Actions
+so a broken build is caught in minutes, not at the end of the sprint.
+
+I work the way a delivery team works: requirement analysis on the story, test design
+before execution, defects logged with reproduction steps, severity and business impact,
+and coverage decisions written down rather than assumed.
+
+What I bring that most testers do not is the domain underneath. I test financial
+applications the way an accountant reads a ledger. I know what the numbers are supposed
+to do, and I write the tests that prove whether the software actually does it.
 
 <br>
 
