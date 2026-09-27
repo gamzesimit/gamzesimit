@@ -25,40 +25,35 @@ actually does it.
 
 ### Testing
 
-<img src="https://img.shields.io/badge/Manual-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Functional-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Regression-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Smoke-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Exploratory-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Black_Box-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Boundary_Value_Analysis-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Equivalence_Partitioning-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Database-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/API-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Data_Driven-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/User_Acceptance-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Risk_Based-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Requirement_Analysis-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Test_Case_Design-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Test_Plans-FB6F92?style=flat-square"/> <img src="https://img.shields.io/badge/Defect_Logging-FB6F92?style=flat-square"/>
+`Manual` `Functional` `Regression` `Smoke` `Exploratory` `Black Box` `Boundary Value Analysis` `Equivalence Partitioning` `Database` `API` `Data Driven` `User Acceptance` `Risk Based` `Requirement Analysis` `Test Case Design` `Test Plans` `Defect Logging`
 
 ### Automation
 
-<img src="https://img.shields.io/badge/Selenium_WebDriver-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Playwright-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Cucumber-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/TestNG-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/JUnit-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Page_Object_Model-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/PageFactory-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/BDD-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/TDD-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Maven-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Apache_POI-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/k6-FF8FAB?style=flat-square"/>
+`Selenium WebDriver` `Playwright` `Cucumber` `TestNG` `JUnit` `Page Object Model` `PageFactory` `BDD` `TDD` `Maven` `Apache POI` `k6`
 
 ### API and data
 
-<img src="https://img.shields.io/badge/Postman-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/REST_Assured-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/Swagger-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL_Workbench-FF8FAB?style=flat-square"/> <img src="https://img.shields.io/badge/JDBC-FF8FAB?style=flat-square"/>
+`Postman` `REST Assured` `Swagger` `SQL` `MySQL` `MySQL Workbench` `JDBC`
 
 ### Engineering
 
-<img src="https://img.shields.io/badge/Java-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/TypeScript-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Gherkin-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Git-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/GitHub_Actions-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Jenkins-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Docker-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/CI/CD-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Agile_Scrum-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/SDLC-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/STLC-FF9EBB?style=flat-square"/> <img src="https://img.shields.io/badge/JIRA-FF9EBB?style=flat-square"/>
+`Java` `TypeScript` `Gherkin` `Git` `GitHub Actions` `Jenkins` `Docker` `CI/CD` `Agile Scrum` `SDLC` `STLC` `JIRA`
 
 ### Financial domain
 
-<img src="https://img.shields.io/badge/General_Ledger-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Accounts_Payable-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Accounts_Receivable-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Reconciliations-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Month_End_Close-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Sales_Tax_Filing-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Payroll-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Tax_Returns-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Mortgage_Origination-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Compliance_Auditing-FFA5BD?style=flat-square"/> <img src="https://img.shields.io/badge/Audit_Trails-FFA5BD?style=flat-square"/>
-
-<img src="https://img.shields.io/badge/QuickBooks-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/PeopleSoft-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/UltraTax-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/Bloomberg_Terminal-FFB3C6?style=flat-square"/> <img src="https://img.shields.io/badge/Excel-FFB3C6?style=flat-square"/>
+`General Ledger` `Accounts Payable` `Accounts Receivable` `Reconciliations` `Month End Close` `Sales Tax Filing` `Payroll` `Tax Returns` `Mortgage Origination` `Compliance Auditing` `Audit Trails` `QuickBooks` `PeopleSoft` `UltraTax` `Bloomberg Terminal` `Excel`
 
 <br>
 
 ### What I am building
 
-**Accounting Software Defect Study** <img src="https://img.shields.io/badge/in_progress-FF8FAB?style=flat-square"/>
-Manual test plan and structured defect reports against an open source accounting
+**Accounting Software Defect Study** `in progress`Manual test plan and structured defect reports against an open source accounting
 platform. Invoicing, tax calculation, multi currency handling, ledger balancing.
 
-**Payments API Test Suite** <img src="https://img.shields.io/badge/planned-FFC2D1?style=flat-square"/>
-Automated API suite against a payment provider sandbox, plus load and performance
+**Payments API Test Suite** `planned`Automated API suite against a payment provider sandbox, plus load and performance
 testing with k6.
 
-**Automated Regression Pipeline** <img src="https://img.shields.io/badge/planned-FFC2D1?style=flat-square"/>
-Playwright on the Page Object Model, running on every commit through GitHub Actions
+**Automated Regression Pipeline** `planned`Playwright on the Page Object Model, running on every commit through GitHub Actions
 inside a Docker container.
 
 ### Open source
