@@ -1,36 +1,74 @@
-## Gamze Simit
+# Gamze Simit
 
-QA Engineer in Austin, Texas. I test accounting, payments and banking software.
+**QA Engineer — Accounting, Payments and Banking Software**
+Austin, Texas · [LinkedIn](https://linkedin.com/in/gamzesimit) · gamzenursimit@gmail.com
 
-Before software I spent six years inside financial systems: preparing and filing
-quarterly and 1040 tax returns, running payroll, reconciling bank statements, and
-auditing more than 40 branches against internal standards. That work is mostly one
-skill repeated, finding the single number that is wrong before anyone downstream
-acts on it.
+---
 
-I do the same thing now, with test cases instead of spreadsheets. Most testers can
-tell you a page loaded. I can tell you the ledger no longer balances.
+## Summary
 
-Currently building a public record of that work against real financial software.
+Quality assurance engineer with six years of professional experience in accounting and
+financial services, followed by formal training in manual and automated software testing.
 
-### Work
+Specialises in the validation of financial applications: general ledger behaviour, tax and
+rounding rules, reconciliation logic, payment flows and reporting accuracy. Combines domain
+knowledge of how financial systems are required to behave with the test design and
+automation skills to verify that they do.
 
-| | |
+---
+
+## Professional Background
+
+| Period | Organisation | Role |
+|---|---|---|
+| 2018 – 2020 | Caliber Home Loans, Coppell, TX | Homeownership Advisor Trainee |
+| 2016 – 2018 | Whitlock and Company, P.C., Alcoa, TN | Tax Accountant |
+| 2014 – 2015 | Enterprise Holdings, Knoxville, TN | Staff Accountant |
+
+Responsibilities included the preparation and filing of quarterly and individual tax returns,
+payroll processing, bank statement reconciliation, vendor invoice management, and the audit
+of more than 40 branches against internal compliance standards.
+
+---
+
+## Technical Competencies
+
+| Area | Tools and Methods |
 |---|---|
-| **Accounting Software Defect Study** | Manual test plan and defect reports against an open source accounting platform. Invoicing, tax calculation, multi currency, ledger balancing. *In progress.* |
-| **Payments API Test Suite** | REST Assured and Postman against a payment sandbox, plus k6 load testing. *Planned.* |
-| **Automated Regression Pipeline** | Playwright on the Page Object Model, wired to GitHub Actions and Docker. *Planned.* |
-| **Mifos web-app** | Playwright coverage for the accounting module of the Apache Fineract banking front end. *Open source contribution.* |
+| Test Design | Test plans, test case design, equivalence partitioning, boundary value analysis, risk based testing |
+| Manual Testing | Functional, regression, smoke, exploratory, black box, database, user acceptance |
+| Automation | Selenium WebDriver, Playwright, Cucumber (BDD), TestNG, JUnit, Page Object Model |
+| API Testing | Postman, REST Assured, Swagger |
+| Performance | k6 load and performance testing |
+| Data | SQL, MySQL, MySQL Workbench, JDBC |
+| Languages | Java, SQL, TypeScript, Gherkin |
+| CI/CD | GitHub Actions, Jenkins, Docker |
+| Process | Agile (Scrum), SDLC, STLC, JIRA, defect life cycle |
+| Financial Systems | PeopleSoft, QuickBooks, UltraTax, Bloomberg Terminal, Microsoft Excel |
 
-### Tools
+---
 
-Selenium WebDriver, Playwright, Cucumber, TestNG, JUnit, Page Object Model
-Postman, REST Assured, Swagger, k6
-Java, SQL, TypeScript, Gherkin
-MySQL, JDBC, JIRA, Git, GitHub Actions, Jenkins, Docker
+## Portfolio
 
-Financial systems I have worked in: PeopleSoft, QuickBooks, UltraTax, Bloomberg Terminal.
+| Repository | Scope | Status |
+|---|---|---|
+| Accounting Software Defect Study | Manual test plan and structured defect reports against an open source accounting platform, covering invoicing, tax calculation, multi currency handling and ledger balancing | In progress |
+| Payments API Test Suite | Automated API suite against a payment provider sandbox using Postman and REST Assured, with k6 load and performance testing | Planned |
+| Automated Regression Pipeline | Playwright suite on the Page Object Model, integrated with GitHub Actions and Docker | Planned |
 
-### Contact
+## Open Source Contribution
 
-[LinkedIn](https://linkedin.com/in/gamzesimit) · gamzenursimit@gmail.com
+[Mifos web-app](https://github.com/openMF/web-app) — Playwright test coverage for the accounting
+module of the Apache Fineract core banking front end.
+
+---
+
+## Education and Certification
+
+**The University of Tennessee, Knoxville, TN**
+Bachelor of Science in Business Administration. Major: Accounting, Collateral in Finance. GPA 3.5/4.0.
+
+Software Engineering Bootcamp — manual and automated testing, Java, SQL, REST APIs, Agile delivery.
+
+Bloomberg Terminal certification: Equities, Fixed Income, Foreign Exchange, Commodities.
+Mortgage Loan Originator examination, passed.
