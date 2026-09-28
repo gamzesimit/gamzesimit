@@ -32,7 +32,7 @@ actually does it.
 
 ### Automation
 
-`Selenium WebDriver` `Playwright` `Cucumber` `TestNG` `JUnit` `Page Object Model` `PageFactory` `BDD` `TDD` `Maven` `Apache POI` `k6`
+`Selenium WebDriver` `Playwright` `Cypress` `Cucumber` `TestNG` `JUnit` `Page Object Model` `PageFactory` `BDD` `TDD` `Maven` `Apache POI` `k6`
 
 ### API and data
 
@@ -79,6 +79,13 @@ lines, tax at the stated rate, total against its parts, and all four catalogue
 sort orders verified rather than assumed.
 
 <br>
+
+**[ui-edge-case-tests](https://github.com/gamzesimit/ui-edge-case-tests)**
+Cypress suite over the browser behaviour that breaks automated tests: content
+that arrives late, alerts, frames, new windows, file upload and download, and
+tables that claim to sort. Twenty nine tests, no fixed pauses anywhere. Two
+defects reported, including a money column that had to be checked as numbers
+rather than as text.
 
 ### Background
 
