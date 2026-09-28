@@ -65,8 +65,18 @@ any kind can be created, and the screens redirect with no message. Traced to a
 middleware that asks a vendor service for plan limits and treats no answer as no
 permission.
 
-**Payments API test suite** `planned`
-Postman and REST Assured against a payment provider sandbox, with k6 load testing.
+**[banking-api-tests](https://github.com/gamzesimit/banking-api-tests)**
+REST Assured and TestNG against the API of the same banking application, in Java
+with Maven, plus a k6 load profile with thresholds agreed before the run. Three
+defects at the API surface, two of them critical: a transfer with a negative
+amount reverses the direction of the money, and the transfer endpoint moves money
+without asking who is calling.
+
+**[ecommerce-checkout-tests](https://github.com/gamzesimit/ecommerce-checkout-tests)**
+Playwright suite for a storefront, built around checkout arithmetic rather than
+screens. Twenty tests across a desktop and a phone profile: item total against the
+lines, tax at the stated rate, total against its parts, and all four catalogue
+sort orders verified rather than assumed.
 
 <br>
 
