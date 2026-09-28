@@ -52,9 +52,9 @@ actually does it.
 
 **[parabank-test-automation](https://github.com/gamzesimit/parabank-test-automation)**
 Playwright suite for a retail online banking application, written around the rules
-that protect the balance rather than around the screens. Fifteen tests, page object
-model, running on every commit through GitHub Actions against the application in a
-container. Four defects found, two of them change an account balance: a bill payment
+that protect the balance rather than around the screens. Twenty one tests, page object model,
+running on Chrome, Firefox and a phone profile through GitHub Actions against the
+application in a container. Four defects found, two of them change an account balance: a bill payment
 larger than the balance is accepted and drives the account to -1000.00, and a payment
 entered as a negative amount pays money into the account instead of out of it.
 
@@ -67,25 +67,27 @@ permission.
 
 **[banking-api-tests](https://github.com/gamzesimit/banking-api-tests)**
 REST Assured and TestNG against the API of the same banking application, in Java
-with Maven, plus a k6 load profile with thresholds agreed before the run. Three
+with Maven, plus a k6 load profile with thresholds agreed before the run. Twenty two checks. Three
 defects at the API surface, two of them critical: a transfer with a negative
 amount reverses the direction of the money, and the transfer endpoint moves money
 without asking who is calling.
 
 **[ecommerce-checkout-tests](https://github.com/gamzesimit/ecommerce-checkout-tests)**
 Playwright suite for a storefront, built around checkout arithmetic rather than
-screens. Twenty tests across a desktop and a phone profile: item total against the
-lines, tax at the stated rate, total against its parts, and all four catalogue
-sort orders verified rather than assumed.
+screens. Twenty five tests across a desktop and a phone profile: item total against the
+lines, tax at the stated rate, total against its parts, all four catalogue sort
+orders verified rather than assumed, and the cart covered end to end. Three
+defects, including an empty cart that walks through checkout and is confirmed.
 
 <br>
 
 **[ui-edge-case-tests](https://github.com/gamzesimit/ui-edge-case-tests)**
 Cypress suite over the browser behaviour that breaks automated tests: content
 that arrives late, alerts, frames, new windows, file upload and download, and
-tables that claim to sort. Twenty nine tests, no fixed pauses anywhere. Two
+tables that claim to sort. Thirty five tests, no fixed pauses anywhere. Three
 defects reported, including a money column that had to be checked as numbers
-rather than as text.
+rather than as text and a link that answers 404 while every assertion about the
+element passes.
 
 ### Background
 
