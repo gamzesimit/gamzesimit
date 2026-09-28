@@ -48,22 +48,25 @@ actually does it.
 
 <br>
 
-### What I am building
+### Projects
 
-**Accounting Software Defect Study** `in progress`Manual test plan and structured defect reports against an open source accounting
-platform. Invoicing, tax calculation, multi currency handling, ledger balancing.
+**[parabank-test-automation](https://github.com/gamzesimit/parabank-test-automation)**
+Playwright suite for a retail online banking application, written around the rules
+that protect the balance rather than around the screens. Fifteen tests, page object
+model, running on every commit through GitHub Actions against the application in a
+container. Four defects found, two of them change an account balance: a bill payment
+larger than the balance is accepted and drives the account to -1000.00, and a payment
+entered as a negative amount pays money into the account instead of out of it.
 
-**Payments API Test Suite** `planned`Automated API suite against a payment provider sandbox, plus load and performance
-testing with k6.
+**[accounting-defect-study](https://github.com/gamzesimit/accounting-defect-study)**
+Defect study of an open source accounting platform. Two reproducible defects with one
+root cause: hidden outbound calls that fail silently. On a fresh install no record of
+any kind can be created, and the screens redirect with no message. Traced to a
+middleware that asks a vendor service for plan limits and treats no answer as no
+permission.
 
-**Automated Regression Pipeline** `planned`Playwright on the Page Object Model, running on every commit through GitHub Actions
-inside a Docker container.
-
-### Open source
-
-**[openMF/web-app](https://github.com/openMF/web-app)**
-Playwright coverage for the accounting module of the Apache Fineract core banking
-front end.
+**Payments API test suite** `planned`
+Postman and REST Assured against a payment provider sandbox, with k6 load testing.
 
 <br>
 
