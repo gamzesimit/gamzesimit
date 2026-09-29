@@ -50,44 +50,69 @@ actually does it.
 
 ### Projects
 
+**Automation**
+
 **[parabank-test-automation](https://github.com/gamzesimit/parabank-test-automation)**
 Playwright suite for a retail online banking application, written around the rules
-that protect the balance rather than around the screens. Twenty one tests, page object model,
-running on Chrome, Firefox and a phone profile through GitHub Actions against the
-application in a container. Four defects found, two of them change an account balance: a bill payment
-larger than the balance is accepted and drives the account to -1000.00, and a payment
-entered as a negative amount pays money into the account instead of out of it.
-
-**[accounting-defect-study](https://github.com/gamzesimit/accounting-defect-study)**
-Defect study of an open source accounting platform. Two reproducible defects with one
-root cause: hidden outbound calls that fail silently. On a fresh install no record of
-any kind can be created, and the screens redirect with no message. Traced to a
-middleware that asks a vendor service for plan limits and treats no answer as no
-permission.
+that protect the balance. Twenty one tests on Chrome, Firefox and a phone profile,
+page object model, running on every commit. Four defects found, two of them change
+an account balance: a bill payment larger than the balance drives the account to
+-1000.00, and a payment entered as a negative amount pays money in.
+[Run report](https://gamzesimit.github.io/parabank-test-automation/)
 
 **[banking-api-tests](https://github.com/gamzesimit/banking-api-tests)**
-REST Assured and TestNG against the API of the same banking application, in Java
-with Maven, plus a k6 load profile with thresholds agreed before the run. Twenty two checks. Three
-defects at the API surface, two of them critical: a transfer with a negative
-amount reverses the direction of the money, and the transfer endpoint moves money
+REST Assured and TestNG in Java with Maven. Thirty one checks over accounts,
+customers, transfers, loans, transactions and error paths, with a response time
+budget on every endpoint. Two k6 load profiles. Three defects, two critical: a
+negative amount reverses the direction of a transfer, and the endpoint moves money
 without asking who is calling.
+
+**[banking-bdd-tests](https://github.com/gamzesimit/banking-bdd-tests)**
+Cucumber and Gherkin over the same API, so the rule is readable by someone who does
+not read Java. Ten scenarios, three tagged as known defects and excluded from the
+default run.
 
 **[ecommerce-checkout-tests](https://github.com/gamzesimit/ecommerce-checkout-tests)**
 Playwright suite for a storefront, built around checkout arithmetic rather than
-screens. Twenty five tests across a desktop and a phone profile: item total against the
-lines, tax at the stated rate, total against its parts, all four catalogue sort
-orders verified rather than assumed, and the cart covered end to end. Three
-defects, including an empty cart that walks through checkout and is confirmed.
-
-<br>
+screens. Thirty two tests across desktop and phone, including accessibility checks.
+Three defects, one of them an empty order the store confirms for 0.00.
+[Run report](https://gamzesimit.github.io/ecommerce-checkout-tests/)
 
 **[ui-edge-case-tests](https://github.com/gamzesimit/ui-edge-case-tests)**
-Cypress suite over the browser behaviour that breaks automated tests: content
-that arrives late, alerts, frames, new windows, file upload and download, and
-tables that claim to sort. Thirty five tests, no fixed pauses anywhere. Three
-defects reported, including a money column that had to be checked as numbers
-rather than as text and a link that answers 404 while every assertion about the
-element passes.
+Cypress over the browser behaviour that breaks automated tests: late content,
+dialogs, frames, uploads, storage and layout at three widths. Forty six tests, no
+fixed waits anywhere. Three defects, including a link that answers 404 while every
+assertion about the element passes.
+[Run report](https://gamzesimit.github.io/ui-edge-case-tests/)
+
+**API and performance**
+
+**[banking-postman-collection](https://github.com/gamzesimit/banking-postman-collection)**
+Postman collection with the assertions written into the requests, run headless by
+Newman on every commit. Seven requests, seventeen assertions. Balances asserted as
+differences so the collection can be re-run against the same environment.
+
+**[banking-jmeter-load](https://github.com/gamzesimit/banking-jmeter-load)**
+Apache JMeter plan with the assertions inside it, so a fast wrong answer fails.
+23,959 samples at 1,176 per second, zero errors, run on every commit.
+
+**Written testing and data**
+
+**[banking-test-documentation](https://github.com/gamzesimit/banking-test-documentation)**
+The part that comes before automation: test plans with entry and exit criteria and
+a risk table, twelve executable test cases, eleven requirements, a traceability
+matrix tying each one to a manual case and an automated test, and defect reports.
+
+**[sql-for-testers](https://github.com/gamzesimit/sql-for-testers)**
+Queries that check an accounting database is telling the truth: invoice arithmetic,
+referential integrity, data quality, duplicates and reconciliation. Written so a
+clean database returns no rows, and four of them proved against a database with a
+fault inserted.
+
+**[accounting-defect-study](https://github.com/gamzesimit/accounting-defect-study)**
+Defect study of an open source accounting platform. Two reproducible defects with
+one root cause, traced through the source: hidden outbound calls that fail silently.
+On a fresh install no record of any kind can be created.
 
 ### Background
 
