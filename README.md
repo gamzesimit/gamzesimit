@@ -13,7 +13,7 @@
 
 ### About
 
-Six years inside financial systems before software: tax returns, payroll, bank
+Nine years inside financial systems before software: tax returns, payroll, bank
 reconciliations, and compliance audits across more than 40 branches.
 
 I build test automation, not just test cases. Frameworks in Java and Selenium on the
