@@ -28,19 +28,19 @@ actually does it.
 
 ### Testing
 
-`Manual` `Functional` `Regression` `Smoke` `Exploratory` `Black Box` `Boundary Value Analysis` `Equivalence Partitioning` `Database` `API` `Data Driven` `User Acceptance` `Risk Based` `Requirement Analysis` `Test Case Design` `Test Plans` `Defect Logging`
+`Manual` `Automated` `Functional` `Regression` `Smoke` `Ad Hoc` `Boundary` `Black Box` `Database` `API` `Data-Driven` `Risk-Based` `Requirement Analysis` `Test Case Design` `Test Plans` `Traceability Matrix` `Defect Logging`
 
 ### Automation
 
-`Selenium WebDriver` `Playwright` `Cypress` `Cucumber` `TestNG` `JUnit` `Page Object Model` `PageFactory` `BDD` `TDD` `Maven` `Apache POI` `k6`
+`Selenium WebDriver` `Cucumber` `TestNG` `JUnit` `Page Object Model` `PageFactory` `BDD` `TDD` `Maven` `Apache POI`
 
 ### API and data
 
-`Postman` `REST Assured` `Swagger` `SQL` `MySQL` `MySQL Workbench` `JDBC`
+`Postman` `REST Assured` `Swagger` `SQL` `MySQL` `MySQL Workbench` `JDBC` `Microsoft Access`
 
 ### Engineering
 
-`Java` `TypeScript` `Gherkin` `Git` `GitHub Actions` `Jenkins` `Docker` `CI/CD` `Agile Scrum` `SDLC` `STLC` `JIRA`
+`Java` `C++` `Gherkin` `HTML` `XML` `Git` `GitHub Actions` `Jenkins` `CI/CD` `Eclipse` `IntelliJ IDEA` `Agile Scrum` `SDLC` `STLC` `JIRA`
 
 ### Financial domain
 
@@ -52,49 +52,29 @@ actually does it.
 
 **Automation**
 
-**[parabank-test-automation](https://github.com/gamzesimit/parabank-test-automation)**
-Playwright suite for a retail online banking application, written around the rules
-that protect the balance. Twenty one tests on Chrome, Firefox and a phone profile,
-page object model, running on every commit. Four defects found, two of them change
-an account balance: a bill payment larger than the balance drives the account to
--1000.00, and a payment entered as a negative amount pays money in.
-[Run report](https://gamzesimit.github.io/parabank-test-automation/)
+**[parabank-selenium-tests](https://github.com/gamzesimit/parabank-selenium-tests)**
+Selenium WebDriver in Java with TestNG and Maven, on the Page Object Model with
+PageFactory, for a retail online banking application. Twenty tests, with sign-in
+cases and amounts read from Excel through Apache POI. Four defects found through
+the browser, two of them on the transfer screen: a negative amount moves the money
+backwards, and a transfer larger than the balance drives the account to -1000.00.
 
 **[banking-api-tests](https://github.com/gamzesimit/banking-api-tests)**
 REST Assured and TestNG in Java with Maven. Thirty one checks over accounts,
 customers, transfers, loans, transactions and error paths, with a response time
-budget on every endpoint. Two k6 load profiles. Three defects, two critical: a
-negative amount reverses the direction of a transfer, and the endpoint moves money
-without asking who is calling.
+budget on every endpoint. Three defects, two critical: a negative amount reverses
+the direction of a transfer, and the endpoint moves money without asking who is
+calling.
 
 **[banking-bdd-tests](https://github.com/gamzesimit/banking-bdd-tests)**
 Cucumber and Gherkin over the same API, so the rule is readable by someone who does
 not read Java. Ten scenarios, three tagged as known defects and excluded from the
 default run.
 
-**[ecommerce-checkout-tests](https://github.com/gamzesimit/ecommerce-checkout-tests)**
-Playwright suite for a storefront, built around checkout arithmetic rather than
-screens. Thirty two tests across desktop and phone, including accessibility checks.
-Three defects, one of them an empty order the store confirms for 0.00.
-[Run report](https://gamzesimit.github.io/ecommerce-checkout-tests/)
-
-**[ui-edge-case-tests](https://github.com/gamzesimit/ui-edge-case-tests)**
-Cypress over the browser behaviour that breaks automated tests: late content,
-dialogs, frames, uploads, storage and layout at three widths. Forty six tests, no
-fixed waits anywhere. Three defects, including a link that answers 404 while every
-assertion about the element passes.
-[Run report](https://gamzesimit.github.io/ui-edge-case-tests/)
-
-**API and performance**
-
 **[banking-postman-collection](https://github.com/gamzesimit/banking-postman-collection)**
 Postman collection with the assertions written into the requests, run headless by
 Newman on every commit. Seven requests, seventeen assertions. Balances asserted as
 differences so the collection can be re-run against the same environment.
-
-**[banking-jmeter-load](https://github.com/gamzesimit/banking-jmeter-load)**
-Apache JMeter plan with the assertions inside it, so a fast wrong answer fails.
-23,959 samples at 1,176 per second, zero errors, run on every commit.
 
 **Written testing and data**
 
@@ -119,8 +99,11 @@ On a fresh install no record of any kind can be created.
 **The University of Tennessee, Knoxville**
 B.S. Business Administration. Major: Accounting, Collateral in Finance. GPA 3.5/4.0.
 
-**Software Engineering Bootcamp**
-Manual and automated testing, Java, SQL, REST APIs, Agile delivery.
+**Software Engineering Bootcamp, NeoTech Academy**
+April 2024 to March 2025. Manual and automated testing, Java, SQL, REST APIs, Agile delivery.
+
+**Software Testing Bootcamp, TechPro Education**
+August 2023 to December 2023.
 
 **Certifications**
 Bloomberg Terminal: Equities, Fixed Income, Foreign Exchange, Commodities.
