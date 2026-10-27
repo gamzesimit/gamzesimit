@@ -2,10 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF8FAB&height=170&section=header&text=Gamze%20Simit&fontSize=46&fontColor=ffffff&fontAlignY=34&desc=QA%20Engineer%20·%20Accounting,%20Payments%20and%20Banking%20Software&descSize=15&descAlignY=54" width="100%" alt="Gamze Simit"/>
 
-<img src="https://img.shields.io/badge/Austin,_TX-FB6F92?style=flat-square"/>
-<a href="https://linkedin.com/in/gamzesimit"><img src="https://img.shields.io/badge/LinkedIn-FF8FAB?style=flat-square"/></a>
-<a href="mailto:gamzenursimit@gmail.com"><img src="https://img.shields.io/badge/gamzenursimit@gmail.com-FF8FAB?style=flat-square"/></a>
-<img src="https://img.shields.io/badge/Open_to_work-FFC2D1?style=flat-square&labelColor=FFC2D1"/>
+<img src="https://img.shields.io/badge/Austin,_TX-C9184A?style=for-the-badge"/>
+<a href="https://linkedin.com/in/gamzesimit"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:gamzenursimit@gmail.com"><img src="https://img.shields.io/badge/gamzenursimit@gmail.com-C9184A?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Open_to_work-2E7D32?style=for-the-badge"/>
 
 </div>
 
@@ -16,9 +16,10 @@
 Nine years inside financial systems before software: tax returns, payroll, bank
 reconciliations, and compliance audits across more than 40 branches.
 
-I build test automation, not just test cases. Frameworks in Java and Selenium on the
-Page Object Model, API verification with Postman and REST Assured, SQL checks against
-the database, and suites that run on every commit through GitHub Actions.
+I build test automation, not just test cases. Playwright with TypeScript, Selenium with
+Java and Cypress, all on the Page Object Model; API verification with REST Assured and
+Postman; load runs in JMeter; SQL checks against the database; and suites that run on
+every commit through GitHub Actions.
 
 I test financial applications the way an accountant reads a ledger. I know what the
 numbers are supposed to do, and I write the tests that prove whether the software
@@ -26,31 +27,43 @@ actually does it.
 
 <br>
 
-### Testing
-
-`Manual` `Automated` `Functional` `Regression` `Smoke` `Ad Hoc` `Boundary` `Black Box` `Database` `API` `Data-Driven` `Risk-Based` `Requirement Analysis` `Test Case Design` `Test Plans` `Traceability Matrix` `Defect Logging`
-
 ### Automation
 
-`Selenium WebDriver` `Cucumber` `TestNG` `JUnit` `Page Object Model` `PageFactory` `BDD` `TDD` `Maven` `Apache POI`
+`Playwright` `TypeScript` `Selenium WebDriver` `Java` `Cypress` `JavaScript` `TestNG` `Cucumber / BDD` `Page Object Model`
 
-### API and data
+### API, performance and data
 
-`Postman` `REST Assured` `Swagger` `SQL` `MySQL` `MySQL Workbench` `JDBC` `Microsoft Access`
+`REST Assured` `Postman / Newman` `Apache JMeter` `SQL` `MySQL` `Accessibility checks (axe)`
 
-### Engineering
+### Delivery
 
-`Java` `C++` `Gherkin` `HTML` `XML` `Git` `GitHub Actions` `Jenkins` `CI/CD` `Eclipse` `IntelliJ IDEA` `Agile Scrum` `SDLC` `STLC` `JIRA`
+`GitHub Actions` `Docker` `Maven` `Git` `JIRA` `Agile Scrum`
+
+### Testing practice
+
+`Risk-Based Testing` `Test Plans` `Test Case Design` `Traceability Matrix` `Boundary Analysis` `Regression` `Defect Reporting`
 
 ### Financial domain
 
-`General Ledger` `Accounts Payable` `Accounts Receivable` `Reconciliations` `Month End Close` `Sales Tax Filing` `Payroll` `Tax Returns` `Mortgage Origination` `Compliance Auditing` `Audit Trails` `QuickBooks` `PeopleSoft` `UltraTax` `Bloomberg Terminal` `Excel`
+`General Ledger` `AP / AR` `Reconciliations` `Month End Close` `Payroll` `Tax Returns` `Mortgage Origination` `Compliance Auditing` `QuickBooks` `PeopleSoft` `Bloomberg Terminal`
 
 <br>
 
 ### Projects
 
-**Automation**
+**Browser automation**
+
+**[ecommerce-checkout-tests](https://github.com/gamzesimit/ecommerce-checkout-tests)**
+Playwright and TypeScript for a storefront, built around checkout arithmetic rather
+than screens. Thirty two tests on desktop and a phone profile, including
+accessibility checks. Three defects, one of them an empty cart checked out into a
+confirmed order.
+
+**[parabank-test-automation](https://github.com/gamzesimit/parabank-test-automation)**
+Playwright and TypeScript for a retail online banking application, on Chrome,
+Firefox and an iPhone profile. Twenty one tests around the rules that protect the
+balance. Four defects, two of them change an account balance. The same application
+is tested with Selenium below, so the two tools can be compared on one target.
 
 **[parabank-selenium-tests](https://github.com/gamzesimit/parabank-selenium-tests)**
 Selenium WebDriver in Java with TestNG and Maven, on the Page Object Model with
@@ -58,6 +71,13 @@ PageFactory, for a retail online banking application. Twenty tests, with sign-in
 cases and amounts read from Excel through Apache POI. Four defects found through
 the browser, two of them on the transfer screen: a negative amount moves the money
 backwards, and a transfer larger than the balance drives the account to -1000.00.
+
+**[ui-edge-case-tests](https://github.com/gamzesimit/ui-edge-case-tests)**
+Cypress over the browser behaviour that breaks automated tests: late content,
+dialogs, frames, uploads, storage and layout at three widths. Forty six tests with
+no fixed waits. Three defects.
+
+**API and performance**
 
 **[banking-api-tests](https://github.com/gamzesimit/banking-api-tests)**
 REST Assured and TestNG in Java with Maven. Thirty one checks over accounts,
@@ -75,6 +95,10 @@ default run.
 Postman collection with the assertions written into the requests, run headless by
 Newman on every commit. Seven requests, seventeen assertions. Balances asserted as
 differences so the collection can be re-run against the same environment.
+
+**[banking-jmeter-load](https://github.com/gamzesimit/banking-jmeter-load)**
+Apache JMeter load plan for the same banking API, run headless on every commit with
+the assertions inside the plan, so a fast wrong answer still fails.
 
 **Written testing and data**
 
